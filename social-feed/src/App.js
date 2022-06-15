@@ -29,11 +29,18 @@ function App() {
     },
   ])
 
+  function addNewPost(newPost){
+    let tempPosts = [newPost, ...posts];
+    setPosts(tempPosts);
+  }
+
+
+
   // Return jsx
   return (
     <div >
       <NavBar />
-      <CreatePost />
+      <CreatePost addNewPostProp={addNewPost}/>
       <PostMapper array={posts} />
       
     </div>
