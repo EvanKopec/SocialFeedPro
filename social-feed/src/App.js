@@ -11,21 +11,8 @@ function App() {
         message: "I like pizza for dinner!",
         isLiked: false,
         isDisliked: false,
-        id: 1
-    },
-    {
-        name: "Evan",
-        message: "I like pizza for dinner!",
-        isLiked: false,
-        isDisliked: false,
-        id: 2
-    },
-    {
-        name: "JC",
-        message: "I like pizza for dinner!",
-        isLiked: false,
-        isDisliked: false,
-        id: 3
+        id: 1,
+        date: '06/16/2022'
     },
   ])
 
@@ -38,11 +25,16 @@ function App() {
 
   // Return jsx
   return (
-    <div >
+    <div>
+      <div>
       <NavBar />
+      </div>
+      <div className='create-post'>
       <CreatePost addNewPostProp={addNewPost}/>
+      </div>
+      <div>
       <PostMapper array={posts} />
-      
+      </div>
     </div>
   );
 }

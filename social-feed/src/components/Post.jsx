@@ -25,6 +25,7 @@ const Post = ({post}) => {
         <div>
             <h3>{post.name}</h3>
             <p>{post.message}</p>
+            <p>{post.date}</p>
             <div>
                 {postStatus === "none" ? 
                 <div>

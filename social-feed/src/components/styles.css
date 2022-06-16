@@ -1,0 +1,18 @@
+.header-nav{
+    height: 100px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100%;;
+    top: 0; 
+}
+
+.back-ground{
+    background-color: aquamarine;
+    position: absolute;
+
+}
+
+.creat-post{
+    height: 50px;
+    width: 50px;
+}
