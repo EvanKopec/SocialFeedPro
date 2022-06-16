@@ -22,7 +22,7 @@ const Post = ({post}) => {
 
  
     return ( 
-        <div>
+        <div >
             <h3>{post.name}</h3>
             <p>{post.message}</p>
             <p>{post.date}</p>

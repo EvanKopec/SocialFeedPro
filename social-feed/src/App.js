@@ -27,12 +27,14 @@ function App() {
   return (
     <div>
       <div>
-      <NavBar />
+        <NavBar />
       </div>
       <div className='create-post'>
-      <CreatePost addNewPostProp={addNewPost}/>
+        <div>
+          <CreatePost addNewPostProp={addNewPost}/>
+        </div>
       </div>
-      <div>
+      <div className='post'>
       <PostMapper array={posts} />
       </div>
     </div>

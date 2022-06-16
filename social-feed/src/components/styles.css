@@ -1,9 +1,14 @@
 .header-nav{
-    height: 100px;
+    height: 50px;
     background-color: white;
-    margin-bottom: 10px;
-    width: 100%;;
-    top: 0; 
+    margin-bottom: 25px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    place-content: left;
+    justify-content: left;
+    font-size: 25px;
+    padding-top: 25px;
 }
 
 .back-ground{
@@ -12,7 +17,29 @@
 
 }
 
-.creat-post{
-    height: 50px;
-    width: 50px;
+.create-post{
+    display: flex;
+    place-content: center;
+    background-color: white;
+    border-style: solid;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.post{
+    display: flex;
+    place-content: center;
+    background-color: white;
+    border-style: solid;
+    justify-content: center;
+}
+
+.very-back{
+    background-color: aquamarine;
+    opacity: 1;
+    margin: 0%;
+}
+
+.style-font{
+    color: grey;
 }

@@ -4,7 +4,8 @@ import "./styles.css";
 const NavBar = (props) => {
     return ( 
         <header className="header-nav">
-            SocalFeed
+            Socal
+            <div className='style-font'>Feed</div>
         </header>
      );
 }
